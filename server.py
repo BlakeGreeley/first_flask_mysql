@@ -24,4 +24,4 @@ def create_friend():
     return redirect('/')
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True) 
