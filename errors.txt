@@ -1,0 +1,22 @@
+1.)password = 'root'
+error: pymysql.err.OperationalError: (1045, "Access denied for user 'root'@'localhost' (using password: YES)")
+
+changed the password to incorrect one.
+
+2.)import pymySQL.cursors
+error: site cannot be reached 
+
+incorrect import lettering
+
+3.)def query_db( query, data=None):
+error: NameError: name 'self' is not defined
+
+removed self from def query_db()
+
+4.) running it normal
+TypeError: 'bool' object is not iterable
+dont know how to fix this
+
+5.) if __name__ == "__main__":
+    app.run(debug=False)
+error: Internal Server Error
